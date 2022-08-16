@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+        <script src="scripts.js"></script>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <h3>Who was the thief of fiftyville?</h3>
+                <hr>
+                    <div id="btn-group">
+                        <button id="Bruce">Bruce</button>
+                        <button id="Alfred">Alfred</button>
+                        <button id="Ivy">Ivy</button>
+                        <button id="Penguin">Mr. Penguin</button>
+                        <p><b id="feedback_btn"></b></p>
+                    </div>
+            </div>
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <h3>Who was the accomplice?</h3>
+                <hr>
+                <form>
+                    <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+                    <input type="submit">
+                </form>
+                <p><b id="feedback_txt"></b></p>
+            </div>
+        </div>
+    </body>
+</html>
